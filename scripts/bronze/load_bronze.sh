@@ -1,4 +1,13 @@
-
+'
+=================================================================================================
+Bash script: Load Bronze Layer (Source -> Bronze)
+=================================================================================================
+Script Purpose:
+  This script procedure loads data into the "bronze" schema from external CSV files.
+  It performs the following actions:
+  - Truncates the bronze tables before loading data.
+  - Bulk inserts the data
+'
 
 #!/bin/bash
 
