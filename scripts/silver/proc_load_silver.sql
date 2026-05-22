@@ -59,7 +59,7 @@ BEGIN
             WHEN 'IT1' THEN 'Italy'
             WHEN 'FR1' THEN 'France'
             WHEN 'C1' THEN 'Switzerland'
-            WHEN 'COL1' THEN 'Colombia'
+            WHEN 'COL1' THEN 'Columbia'
             WHEN 'MLS1' THEN 'United States'
             WHEN 'SC1' THEN 'Scotland'
             WHEN 'PL1' THEN 'Poland'
@@ -109,7 +109,7 @@ BEGIN
         CASE
             WHEN country_name = 'Türkiye' THEN 'Turkey'
             WHEN country_name = 'Korea, South' THEN 'South Korea'
-            WHEN country_name = 'Colombia' THEN 'Colombia'
+            WHEN country_name = 'Colombia' THEN 'Columbia'
             ELSE COALESCE(country_name, 'N/A')
         END AS country_name,
         COALESCE(domestic_league_code, 'N/A'),
@@ -138,7 +138,7 @@ BEGIN
         CASE
             WHEN country_name = 'Türkiye' THEN 'Turkey'
             WHEN country_name = 'Korea, South' THEN 'South Korea'
-            WHEN country_name = 'Colombia' THEN 'Colombia'
+            WHEN country_name = 'Colombia' THEN 'Columbia'
             ELSE country_name
         END AS country_name,
         country_code,
@@ -184,7 +184,7 @@ BEGIN
         CASE
             WHEN "name" = 'Türkiye' THEN 'Turkey'
             WHEN "name" = 'Korea, South' THEN 'South Korea'
-            WHEN "name" = 'Colombia' THEN 'Colombia'
+            WHEN "name" = 'Colombia' THEN 'Columbia'
             ELSE "name"
         END AS "name",
         team_code,
